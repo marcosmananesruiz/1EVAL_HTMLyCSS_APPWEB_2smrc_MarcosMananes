@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +7,16 @@
 </head>
 <body>
   <form action="" method="get">
-    <p>Nombre <input type="text" name="Nombre" size="40" placeholder="Escribo su nombre"></p>
-    <p>Apellidos: <input type="text" name="Apellidos" size="50" placeholder="Escriba sus Apellidos"></p>
+    <p>Nombre <input type="text" name="Nombre" size="40" placeholder="Escribo su nombre" required></p>
+    <p>Apellidos: <input type="text" name="Apellidos" size="50" placeholder="Escriba sus Apellidos" required></p>
     <p>Sin animo de lucro:
       <input type="radio" name="opt" value="isr"> Tortilla de Patatas
       <input type="radio" name="opt" value="tai"> Lancha Motora
     </p>
     <p>Introduzca su usuario</p>
-    <input type="text" name="nick" placeholder="(16 caracteres maximos)" maxlength="16">
+    <input type="text" name="nick" placeholder="(16 caracteres maximos)" maxlength="16" required>
     <p>Introduzca su Contraseña </p>
-    <input type="password" placeholder="(4 caracteres minimo)">
+    <input type="password" placeholder="(4 caracteres minimo)" required minlength="4">
     <p> ¿Cuantas veces te has pasado el Dark Souls II? <input type="number" name="vecesPasadas"></p>
     <p>Fecha y Hora de tu muerte: <input type="date" name="fecha"> <input type="time" name="hora"></p>
     <p><input type="checkbox" name="chBox">☝️🤓</p>
@@ -30,9 +30,9 @@
     <p>Nivel de odio a Francia: <input type="range" name="odio"></p>
     <p>Color de tu amogus: <input type="color" name="selectedColor"></p>
     <br>
-    <button type="button">
+    <button type="submit">
       <img src="img/açeptao.jpeg" alt="aceptar" width="32" height="32" style="vertical-align: middle;">
-      Let's cook
+      Envia
     </button>
     <button type="reset">
       <img src="img/borrar.jpg" alt="borrar" width="32" height="32" style="vertical-align: middle;">
