@@ -1,0 +1,16 @@
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family:sans-serif;
+}
+body {
+  background-color: #fabada;
+}
+p {
+  text-align: center;
+}
+li {
+  text-align: center;
+}
