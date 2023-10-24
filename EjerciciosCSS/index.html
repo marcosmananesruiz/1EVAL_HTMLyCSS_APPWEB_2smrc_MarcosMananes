@@ -6,48 +6,74 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
-  <h1 class="titulo">Ejercicios de CSS</h1>
-  <div>
-    <fieldset>
+<body class="back">
+  <h1 class="titulo">CSS</h1>
+  <h2>
+    <div>
       <form action="get">
-        <p>Buenas noches señorita</p>
-        <p>muy buenas <input type="text" size="10"> por cierto</p>
+        <fieldset class="campoDatos">
+          <legend>DATOS PERSONALES</legend>
+            <p><label>Nombre: <br><input type="text" size="20"></label></p>
+            <p><label>Apellidos: <br><input type="text" size="40"></label></p>
+            <p><label>Fecha de Nacimiento: <br><input type="date"></label></p>
+            <p>
+              <label>Hombre <input type="radio" name="opts" value="1"></label>
+              <label>Mujer <input type="radio" name="opts" value="2"></label>
+              <label>Otro <input type="radio" name="opts" value="3"></label>
+            </p>
+        </fieldset>
+        <fieldset class="campoGustos">
+          <legend>GUSTOS</legend>
+            <p>
+              <label>Hobbies: 
+                <select>
+                  <option value="1">Caminar</option>
+                  <option value="2">Cocinar</option>
+                  <option value="3">Juegos</option>
+                  <option value="4">Manualidades</option>
+                  <option value="5">Repotaje</option>
+                </select>
+              </label>
+            </p>
+            <p>
+              <label>Dulce <input type="radio" name="DoS" value="1"></label>
+              <label>Salado <input type="radio" name="DoS" value="2"></label>
+            </p>
+            <p>
+              <label>
+                ¿Que haces en tu tiempo libre?
+                <br>
+                <textarea cols="30" rows="10" placeholder="Escribe Aqui!"></textarea>
+              </label>
+            </p>
+        </fieldset>
+        <fieldset class="campoPro">
+          <legend>PROFESIONAL</legend>
+              <p><label>Título Académico mas alto <br><input type="text" size="50"></label></p>
+              <p><label>¿Esta trabajando? <input type="checkbox"></label></p>
+              <p><label>Oficio <br><input type="text" placeholder="Deje en blanco si no marca la casilla" size="28"></label></p>
+              <p>
+                <label>
+                  Experiencias Profesionales
+                  <br>
+                  <textarea placeholder="Dejar en blanco de no tener experiencia laboral" cols="30" rows="10"></textarea>
+                </label>
+              </p>
+        </fieldset>
+        <fieldset class="campoBotones">
+            <p>
+              <button type="submit" >
+                <img src="img/catMonday.jpg" alt="dalemiloco" width="32" height="32" class="botones">
+                Aceptar
+              </button>
+              <button type="reset">
+                <img src="img/borrar.jpg" alt="borrar" width="32" height="32" class="botones">
+                Borré
+              </button>
+            </p>
+        </fieldset>
       </form>
-    </fieldset>
-  </div>
-  <div>
-    <fieldset>
-      <form action="get">
-        <h3 class="titulo">como se encuentran hoy?</h3>
-        <p>
-          <label><input type="radio" name="opt1"> Monday left me broken</label>
-        </p>
-        <p>
-          <label><input type="radio" name="opt1">Tuesday, I was through with hoping</label>
-        </p>
-        <p>
-          <label><input type="radio" name="opt1">Wednesday, my empty arms were open</label>
-        </p>
-        <p>
-          <label><input type="radio" name="opt1">Thursday, waiting for love, waiting for love</label>
-        </p>
-        <p>
-          <img src="img/catMonday.jpg" alt="">
-        </p>
-      </form>
-    </fieldset>
-  </div>
-  <div>
-    <fieldset>
-      <ul style="list-style-type:georgian;">
-        <li>master</li>
-        <li>genio</li>
-        <li>idolo</li>
-        <li>crack</li>
-        <li>balenciaga</li>
-      </ul>
-    </fieldset>
-  </div>
+    </div>
+  </h2>
 </body>
 </html>

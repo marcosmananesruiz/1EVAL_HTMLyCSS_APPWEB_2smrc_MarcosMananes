@@ -1,16 +1,35 @@
-
 .titulo {
   text-align: center;
-  background-color: black;
+  background-color: cornflowerblue;
   color: white;
-  font-family:sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.botones {
+  vertical-align: middle;
+}
+.campoDatos {
+  text-align: left;
+  background-color: #FABADA;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.campoGustos {
+  text-align: center;
+  background-color: #00ACAB;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.campoPro {
+  text-align: right;
+  background-color: lightcoral;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body {
-  background-color: #fabada;
+  background-image: url();
 }
-p {
-  text-align: center;
+legend {
+  background-color: gray;
+  color: white;
 }
-li {
+.campoBotones {
   text-align: center;
+  border-color: black;
 }

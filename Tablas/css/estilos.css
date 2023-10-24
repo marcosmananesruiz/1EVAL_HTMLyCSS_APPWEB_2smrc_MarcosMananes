@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "prueba";
+  src: url(../fonts/mystery-quest.woff2);
+}
+table {
+  font-family: "prueba";
+}
+caption {
+  background-color: black;
+  color: white;
+}
+table {
+  background: url(../img/happy-donkey.gif) no-repeat center center fixed;
+  background-size: 50% 45%;
+  background-position: top;
+  background-position-x: center;
+}
+body {
+  background: url(../img/cat-donce.gif) no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  align-items: center;
+}
