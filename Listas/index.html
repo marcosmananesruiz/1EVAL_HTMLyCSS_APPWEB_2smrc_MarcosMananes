@@ -3,33 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AW 20/09/23</title>
+    <title>Listas</title>
+    <style>
+        .animalRank {
+            background-color: gray;
+        }
+        .cat {
+            list-style-image: url(img/catGood.jpeg);
+            background-color: gold;
+        }
+        .dog {
+            list-style-image: url(img/dogSmol.png);
+            background-color: peru;
+        }
+        .capy {
+            list-style-image: url(img/capybaraSmol.jpg);
+            background-color: silver;
+        }
+        .rabbit {
+            list-style-image: url(img/conejoSmol.jpeg);
+            background-color: white;
+        }
+        .cat2 {
+            list-style-image: url(img/catGood2.jpeg);
+            background-color: white;
+        }
+        ul {
+            list-style-position: outside;
+            list-style-type: square;
+        }
+        .liColored {
+            background-color: aquamarine;
+            color: black;
+        }
+        .olColored {
+            background-color: blue;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <ol>
-        <li style="color: #FABADA;">Primer Elemento</li>
-        <li>Segundo elemento</li>
-        <li>Tercer Elemento</li>
+    <p style="background-color: black; color: white">Mejores Animales Domesticos</p>
+    <ol class="animalRank">
+        <li class="cat">Gatos</li>
+        <li class="capy">Capybara</li>
+        <li class="dog">Perros</li>
+        <li class="rabbit">Conejos</li>
+        <li class="cat2">Gatos otra vez xd</li>
     </ol>
-    <ul>
-        <li>one thing</li>
-        <li>i dont know why</li>
-        <li>it doesnt even matter how hard you try</li>
-        <li>keep that in mind</li>
-        <li>i design this rhyme</li>
-        <li>to explue the due time</li>
-        <li>All i know</li>
-        <li>Time is a valueable thing</li>
-    </ul>
-    <dl>
-        <dt>Binario</dt>
-        <dd>01</dd>
-        <dt>Decimal</dt>
-        <dd>0123456789</dd>
-        <dt>Octal</dt>
-        <dd>01234567</dd>
-        <dt>Hexadecimal</dt>
-        <dd>0123456789ABCDEF</dd>
-    </dl>
+    <p style="background-color: black; color: white">Razones por las que adoramos Redes</p>
+    <ol class="olColored">
+        <li class="liColored"> </li>
+        <li class="liColored"> </li>
+        <li class="liColored"> </li>
+        <li class="liColored"> </li>
+        <li class="liColored">no</li>
+    </ol>
 </body>
 </html>
