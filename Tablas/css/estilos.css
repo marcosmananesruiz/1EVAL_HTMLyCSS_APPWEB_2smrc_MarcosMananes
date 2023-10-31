@@ -2,17 +2,19 @@
   font-family: "prueba";
   src: url(../fonts/mystery-quest.woff2);
 }
-table {
-  font-family: "prueba";
-}
 caption {
   background-color: black;
   color: white;
 }
 table {
-  background: url(../img/happy-donkey.gif) no-repeat center center fixed;
-  background-size: 50% 45%;
-  background-position: top;
+  font-family: "prueba";
+  color: gray;
+  background-color: white;
+}
+table:hover{
+  background: url(../img/cat-spinning.gif) no-repeat center center fixed;
+  background-size: 40% 45%;
+  background-position-y: 20px;
   background-position-x: center;
 }
 body {
@@ -22,4 +24,7 @@ body {
   -webkit-background-size: cover;
   -o-background-size: cover;
   align-items: center;
+}
+img:hover {
+  image-resolution: 512 512;
 }
