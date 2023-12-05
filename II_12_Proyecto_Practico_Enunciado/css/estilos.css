@@ -1,0 +1,117 @@
+* {
+
+}
+body {
+  text-align: center;
+}
+header {
+  text-align: left;
+  position: sticky;
+  top: 1px;
+  background-color: darkblue;
+  padding: 1.5%;
+  z-index: 11;
+}
+header a {
+  margin-right: 1%;
+}
+header a:link {
+  color: salmon;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+header a:visited {
+  color: salmon;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+div.containerBottles img {
+  opacity: 50%;
+}
+div.popUp {
+  display: inline;
+  position: absolute;
+  background-color: darkblue;
+  padding: 1%;
+  color: salmon;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 20px;
+  z-index: 10;
+  right: 30%;
+  top: 25%;
+}
+div.containerBottles p.subtitulo {
+  font-weight: bolder;
+  color: darkblue;
+  font-size: xx-large;
+}
+a.button {
+  background-color: salmon;
+  color: white;
+  border-radius: 10px;
+  padding-left: 6%;
+  padding-right: 6%;
+  text-decoration: none;
+}
+a.button:hover {
+  background-color: black;
+}
+div.imgOW {
+  column-count: 3;
+}
+div.imgOW p {
+  color: darkblue;
+  font-weight: bold;
+  font-size: larger;
+}
+div.imgOW img {
+  height: 128px;
+  width: 192px;
+}
+div.bottle1 {
+  display: inline-block;
+  text-align: justify;
+  width: 50%;
+}
+div.bottle1 img {
+  float: left;
+}
+div.bottle1 p::first-letter {
+  color: salmon;
+  font-weight: bold;
+  font-size: xx-large;
+  border-right: 3px solid darkblue;
+  border-bottom: 2px solid darkblue;
+  padding: 1px;
+}
+footer {
+  background-color: darkblue;
+  overflow-y: auto;
+}
+footer div.direccion {
+  float: left;
+  color: salmon;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 1%;
+}
+footer div.copy {
+  font-weight: bold;
+  float: center;
+  color: salmon;
+}
+footer div.redes {
+  float: right;
+  padding-right: 1%;
+}
+footer div.redes img {
+  height: 32px;
+  width: 32px;
+}
+hr {
+  width: 60%;
+  border: 1px solid salmon;
+}
